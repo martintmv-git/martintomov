@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="description" content=""/>
+<title>e-IDBG | Martin Tomov</title>   
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Bootstrap -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="assets/css/main.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="assets/css/responsive.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
+<!-- Fav Icon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!-- Modernizr -->
+<script src="assets/js/modernizr.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css"/>
+
+<script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+<script src="mousetracker.js" defer></script>
+<script src="image-hover.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+</head>
+
+
+<body onload="document.body.style.opacity='1'">
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="span2">
+                <div id="logo">
+                    <a href="index.html" title="">MARTINTOMOV</a>
+                </div>
+            </div> <!-- 
+            <div class="span10">
+                <nav id="menu" style="display: flex; justify-content: space-between; align-items: center;">
+                    <ul id="menu-nav" style="margin: 10px;"> </ul>
+                    <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+                </nav>
+            </div>-->
+        </div>
+    </div>
+</header>
+<!-- End Header -->
+
+<section id="single-team" class="container">
+
+<!-- Start Intro Box -->
+<section id="intro-box" class="margin-0">
+    <div class="container">
+        <div class="row">
+            <div class="span6">
+                <h2>E-IDBG</h2>
+                <h3>Personal Project</h3>
+                <h3>Year: 2022</h3>
+                <h3>In development</h3>
+                <h3>View available soon</h3>
+                <h3 style="color: transparent; text-shadow: 0 0 0 #0d0d0d;">--------------------------------------------------</h3>
+                <div class="arrows">
+                    <div>
+                        <a href="redactieportal.html">
+                            <img src="icons/left-arrow.png" alt="Previous Project" style="height: 80px;">
+                        </a>
+                        <a href="yogadaily.html">
+                            <img src="icons/right-arrow.png" alt="Next Project" style="height: 80px; margin-left: 50px;">
+                        </a>
+                    </div>
+                </div>
+                <!--<h4>View <a href="#" target="_blank">Live</a></h4>-->
+                <br/>
+            </div>
+            <div class="span6">
+                <div class="hidden-phone">
+                  <img src="assets/img/e-idbg-open.png" alt="" class="hidden-phone-img">
+                </div>
+              </div>
+              <div class="span12">
+                <h2>CONCEPT</h2>
+                <h3>e-iDBG is an app designed to store digital identity documents such as passports, identity cards and driver's licenses for Bulgaria, in a safe and easy-to-use way.</h3>
+
+                <h3>The app serves as an online identity verifier. It is designed to be a government app that enables users to identify themselves while conducting business with educational institutes, healthcare institutions, or their national tax agency.</h3>
+                <h3>My goal is to expand the app's capabilities, develop and integrate it with various government and private services to provide seamless digital identity management.</h3>
+                <h3>This is an open project that welcomes new ideas and contributions from the community. Collaboration and feedback are essential for creating a platform that truly meets the needs of users.</h3>
+                <h3>If you would like to contribute or know more about the project, <a href="https://linktr.ee/martintmv" target="_blank"><u>Contact me.</u></a></h3>
+            </div> 
+        </div>
+    </div>
+</section>
+
+  
+
+<!-- End Intro Box -->
+      
+<!-- Images -->
+<section id="single-team" class="container">
+    <div class="row">
+        <div class="span12">
+            <div class="team-img-project">
+                <img src="assets/img/phones.png" alt="">
+            </div>
+        </div>
+</section>
+<!-- End Images -->
+<script>
+    // change project using keyboard arrows
+    const leftArrow = document.querySelector('.arrows img[alt="Previous Project"]');
+    const rightArrow = document.querySelector('.arrows img[alt="Next Project"]');
+    
+    document.addEventListener('keydown', function(event) {
+      if (event.code === 'ArrowLeft') {
+        leftArrow.click(); // Simulate click on left arrow icon
+      } else if (event.code === 'ArrowRight') {
+        rightArrow.click(); // Simulate click on right arrow icon
+      }
+    });
+    
+    </script>
+<!-- Start Footer -->
+<footer class="footer-widgets">
+	<div class="container">
+    	<div class="row">
+         	<div class="span4 widget">
+            	<div class="about-widget">
+                    <h7><a href="https://linktr.ee/martintmv" target="linktree">LINKTREE</a></h7><br>
+                    <h7><a href="mailto:work.martintmv@gmail.com" target="email">work.martintmv@gmail.com</a></h7><br>
+                    <h7><a href="https://www.linkedin.com/in/martintomov" target="linkedin">linkedin</a></h7><br> 
+                    <h7>| 2023</h7>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+</body>
+</html>

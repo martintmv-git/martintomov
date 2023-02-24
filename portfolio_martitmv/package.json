@@ -1,0 +1,16 @@
+{
+  "name": "martintomov",
+  "version": "1.0.0",
+  "description": "Porfolio website - Project showcase",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "martintomov",
+    "martintmv",
+    "portfolio"
+  ],
+  "author": "Martin Tomov",
+  "license": "MIT"
+}

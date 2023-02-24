@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="description" content=""/>
+<title>Crypto Track | Martin Tomov</title>   
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Bootstrap -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="assets/css/main.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="assets/css/responsive.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
+<!-- Fav Icon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!-- Modernizr -->
+<script src="assets/js/modernizr.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css"/>
+
+<script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+<script src="mousetracker.js" defer></script>
+<script src="image-hover.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+</head>
+
+
+<body onload="document.body.style.opacity='1'">
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="span2">
+                <div id="logo">
+                    <a href="index.html" title="">MARTINTOMOV</a>
+                </div>
+            </div> <!-- 
+            <div class="span10">
+                <nav id="menu" style="display: flex; justify-content: space-between; align-items: center;">
+                    <ul id="menu-nav" style="margin: 10px;"> </ul>
+                    <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+                </nav>
+            </div>-->
+        </div>
+    </div>
+</header>
+<!-- End Header -->
+
+<section id="single-team" class="container">
+
+<!-- Start Intro Box -->
+<section id="intro-box" class="margin-0">
+    <div class="container">
+        <div class="row">
+            <div class="span6">
+                <h2>Crypto Track</h2>
+                <h3>Personal Project</h3>
+                <h3>Year: 2022</h3>
+                <h3>API for crypto app</h3>
+                <h3>View in <a href="https://github.com/martintmv-git/crypto-track-api" target="_blank"><u> Github</u></a></h3>
+                <h3 style="color: transparent; text-shadow: 0 0 0 #0d0d0d;">--------------------------------------------------</h3>
+                <div class="arrows">
+                    <div>
+                        <a href="thirdperson.html">
+                            <img src="icons/left-arrow.png" alt="Previous Project" style="height: 80px;">
+                        </a>
+                        <a href="redactieportal.html">
+                            <img src="icons/right-arrow.png" alt="Next Project" style="height: 80px; margin-left: 50px;">
+                        </a>
+                    </div>
+                </div>
+                <!--<h4>View <a href="#" target="_blank">Live</a></h4>-->
+                <br/>
+            </div>
+            <div class="span6">
+                <div class="hidden-phone">
+                    <img src="assets/img/cryptotrack-open.png" alt="" class="hidden-phone-img">
+                  </div>
+                </div> 
+            <div class="span12">
+                <h2>About</h2>
+                <h3>Cryptotrack API is a web scraper that collects cryptocurrency news articles and live prices from various sources, stores and displays them.</h3>
+                <h3>It uses the axios library to send HTTP requests to the specified sources, the cheerio library to parse the HTML responses, and the express library to set up a server.</h3>
+
+                <h3>The API has two sections, "/Price" & "/News".</h3>
+                <h3>In "/PRICE" section it scrapes the latest coin prices and 24-hour volumes, so users can track the performance of their favorite cryptocurrencies.</h3>
+                <h3>In "/NEWS" section it provides a convenient way for users to stay informed about the latest news in the crypto space and also links as source for the articles it reads.</h3>
+                <h3>All the information provided by the API is displayed in JSON format, ensuring easy integration with any application or platform.</h3>
+            </div> 
+        </div>
+    </div>
+</section>
+
+  
+
+<!-- End Intro Box -->
+<script>
+    // change project using keyboard arrows
+    const leftArrow = document.querySelector('.arrows img[alt="Previous Project"]');
+    const rightArrow = document.querySelector('.arrows img[alt="Next Project"]');
+    
+    document.addEventListener('keydown', function(event) {
+      if (event.code === 'ArrowLeft') {
+        leftArrow.click(); // Simulate click on left arrow icon
+      } else if (event.code === 'ArrowRight') {
+        rightArrow.click(); // Simulate click on right arrow icon
+      }
+    });
+    
+    </script>
+<!-- Images -->
+<!-- Start Footer -->
+<footer class="footer-widgets">
+	<div class="container">
+    	<div class="row">
+         	<div class="span4 widget">
+            	<div class="about-widget">
+                    <h7><a href="https://linktr.ee/martintmv" target="linktree">LINKTREE</a></h7><br>
+                    <h7><a href="mailto:work.martintmv@gmail.com" target="email">work.martintmv@gmail.com</a></h7><br>
+                    <h7><a href="https://www.linkedin.com/in/martintomov" target="linkedin">linkedin</a></h7><br> 
+                    <h7>| 2023</h7>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+</body>
+</html>

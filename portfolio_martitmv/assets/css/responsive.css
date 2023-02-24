@@ -1,0 +1,220 @@
+@media (min-width: 980px) and (max-width: 1199px) {
+	
+	/* Portfolio */
+
+	#portfolio-projects li {
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	header {
+		position: relative;	
+	}
+	
+	/* Header */
+	
+	header {
+		height: 60px;	
+	}
+	
+	header #logo a {
+		font-size: 24px;
+		line-height: 60px;	
+	}
+	
+	#mobile-nav {
+    	display: block;
+		float: right;
+	}
+	
+	/* Intro Box */
+	
+	#intro-box h3 {
+		font-size: 28px;	
+	}
+	
+	/* Team */
+	
+	#single-team .span6 {
+		width: 724px;	
+	}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	
+	header {
+		position: relative;	
+	}
+	
+	/* Common Fix */
+	
+	header,
+	#intro-box,
+	footer {
+		margin-left: -20px;
+    	margin-right: -20px;
+    	padding-left: 20px;
+    	padding-right: 20px;	
+	}
+	
+	/* Header */
+	
+	header {
+		height: 60px;	
+	}
+	
+	header #logo a {
+		font-size: 24px;
+		line-height: 60px;	
+	}
+	
+	header .span2 {
+		float: left;
+		width: 80%;	
+	}
+	
+	header .span10 {
+		float: left;
+		width: 20%;	
+	}
+	
+	#mobile-nav {
+    	display: block;
+		float: right;
+	}
+	
+	/* Intro Box */
+	
+	#intro-box h3 {
+		font-size: 28px;	
+	}
+	
+	/* Footer Widgets */
+	
+	footer.footer-widgets .widget {
+		margin-bottom: 30px;	
+	}
+	
+	footer.footer-widgets .widget:last-child {
+		margin-bottom: 0;	
+	}
+}
+
+@media (max-width: 480px) {
+	
+	header {
+		position: relative;	
+	}
+	
+	/* Common Fix */
+	
+	header,
+	#intro-box,
+	footer {
+		margin-left: -20px;
+    	margin-right: -20px;
+    	padding-left: 20px;
+    	padding-right: 20px;	
+	}
+	
+	/* Header */
+	
+	header {
+		height: 60px;	
+	}
+	
+	header #logo a {
+		font-size: 24px;
+		line-height: 60px;
+		font-family: "GT-America-Expanded";
+		text-transform: uppercase;
+	}
+	
+	header .span2 {
+		float: left;
+		width: 80%;	
+	}
+	
+	header .span10 {
+		float: left;
+		width: 20%;	
+	}
+	
+	#mobile-nav {
+    	display: block;
+		float: right;
+	}
+	
+	/* Intro Box */
+	
+	#intro-box h3 {
+		font-size: 18px;	
+	}
+	/* about Box */
+	#single-team h3 {
+		font-size: 18px;	
+	}
+	#single-team h2 {
+		font-size: 36px;
+	}
+	@media (max-width: 767px) {
+		#single-team .team-img::before {
+		  content: "";
+		  position: absolute;
+		  bottom: -10px;
+		  left: 50%;
+		  transform: translateX(-50%);
+		  width: 105%;
+		  height: 105%;
+		  background-color: #ffffff;
+		  opacity: 0.15;
+		  box-shadow: 0 0 10px 5px #ffffff;
+		  z-index: -1;
+		}
+	  }
+	  @media (max-width: 767px) {
+		#single-team .team-img::before {
+			content: "";
+			position: absolute;
+			bottom: -10px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 105%;
+			height: 105%;
+			background-color: #F8F0E3;
+			opacity: 0.15;
+			z-index: -1;
+			filter: blur(100px);
+		}
+	  }
+	  
+	/* Footer Widgets */
+	
+	footer.footer-widgets .widget {
+		margin-bottom: 30px;	
+	}
+	
+	footer.footer-widgets .widget:last-child {
+		margin-bottom: 0;	
+	}
+
+	nav#menu #menu-nav li a {
+		line-height: 35px;
+		}
+}
+
+@media (max-width: 320px) {
+	
+	/* Intro Box */
+	
+	#intro-box {
+		padding-top: 50px;
+		padding-bottom: 60px;	
+	}
+	
+	#intro-box h3 {
+		font-size: 20px;	
+	}}

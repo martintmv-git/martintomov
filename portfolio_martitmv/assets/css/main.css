@@ -27,7 +27,7 @@
 @media (max-width: 767px) {
     #inner_pixi canvas {
         width: 100%;
-        height: 135vw;
+        height: 100vh;
         left: 50%;
     }
 }

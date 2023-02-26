@@ -723,6 +723,18 @@ Team
 	  margin-bottom: 50px;
 	}
 }
+@media (min-width: 1166px) {
+	.hidden-desktop {
+	  display: none;
+	}
+}
+@media (max-width: 465px) {
+	.hidden-phone-img {
+	  max-width: 100%;
+	  height: auto;
+	}
+}
+  
 .custom-video-container {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 aspect ratio */

@@ -327,17 +327,17 @@ button {
 	width: 20px;
 	right: 0;
 	top: 50%;
-	-webkit-transform: translateY(-50%) rotate(-90deg);
-		-ms-transform: translateY(-50%) rotate(-90deg);
-			transform: translateY(-50%) rotate(-90deg);
+	-webkit-transform: translateY(-70%) rotate(-90deg);
+		-ms-transform: translateY(-70%) rotate(-90deg);
+			transform: translateY(-70%) rotate(-90deg);
 	-webkit-transition: 0.2s ease-out;
 	transition: 0.2s ease-out;
   }
   
   button:hover svg {
-	-webkit-transform: translateY(-70%) rotate(-90deg);
-		-ms-transform: translateY(-70%) rotate(-90deg);
-			transform: translateY(-70%) rotate(-90deg);
+	-webkit-transform: translateY(-80%) rotate(-90deg);
+		-ms-transform: translateY(-80%) rotate(-90deg);
+			transform: translateY(-80%) rotate(-90deg);
   }
 html::-webkit-scrollbar-track{
   background: #0d0d0d;

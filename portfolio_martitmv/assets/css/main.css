@@ -220,7 +220,125 @@ html::-webkit-scrollbar{
 	letter-spacing: 0.5px;
 	text-align: start;
 }
-
+button {
+	width: 140px;
+	height: 56px;
+	overflow: hidden;
+	border: none;
+	color: #fff;
+	background: none;
+	position: absolute;
+	right: 5%;
+	bottom: 50%;
+	padding-bottom: 2em;
+  }
+  
+  button > div,button > svg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+  }
+  
+  button:before {
+	content: "";
+	position: absolute;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	-webkit-transform: scaleX(0);
+		-ms-transform: scaleX(0);
+			transform: scaleX(0);
+	-webkit-transform-origin: bottom right;
+		-ms-transform-origin: bottom right;
+			transform-origin: bottom right;
+	background: currentColor;
+	-webkit-transition: -webkit-transform 0.25s ease-out;
+	transition: -webkit-transform 0.25s ease-out;
+	transition: transform 0.25s ease-out;
+	transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+  }
+  
+  button:hover:before {
+	-webkit-transform: scaleX(1);
+		-ms-transform: scaleX(1);
+			transform: scaleX(1);
+	-webkit-transform-origin: bottom left;
+		-ms-transform-origin: bottom left;
+			transform-origin: bottom left;
+  }
+  
+  button .clone > *,button .text > * {
+	opacity: 1;
+	font-size: 1.3rem;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+	margin-left: 4px;
+  }
+  
+  button .clone > * {
+	-webkit-transform: translateY(60px);
+		-ms-transform: translateY(60px);
+			transform: translateY(60px);
+  }
+  
+  button:hover .clone > * {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+		-ms-transform: translateY(0px);
+			transform: translateY(0px);
+	-webkit-transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  }
+  
+  button:hover .text > * {
+	opacity: 1;
+	-webkit-transform: translateY(-60px);
+		-ms-transform: translateY(-60px);
+			transform: translateY(-60px);
+	-webkit-transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  }
+  
+  button:hover .clone > :nth-child(1) {
+	-webkit-transition-delay: 0.15s;
+			transition-delay: 0.15s;
+  }
+  
+  button:hover .clone > :nth-child(2) {
+	-webkit-transition-delay: 0.2s;
+			transition-delay: 0.2s;
+  }
+  
+  button:hover .clone > :nth-child(3) {
+	-webkit-transition-delay: 0.25s;
+			transition-delay: 0.25s;
+  }
+  
+  button:hover .clone > :nth-child(4) {
+	-webkit-transition-delay: 0.3s;
+			transition-delay: 0.3s;
+  }
+  /* icon style and hover */
+  button svg {
+	width: 20px;
+	right: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%) rotate(-50deg);
+		-ms-transform: translateY(-50%) rotate(-50deg);
+			transform: translateY(-50%) rotate(-50deg);
+	-webkit-transition: 0.2s ease-out;
+	transition: 0.2s ease-out;
+  }
+  
+  button:hover svg {
+	-webkit-transform: translateY(-50%) rotate(-90deg);
+		-ms-transform: translateY(-50%) rotate(-90deg);
+			transform: translateY(-50%) rotate(-90deg);
+  }
 html::-webkit-scrollbar-track{
   background: #0d0d0d;
 }

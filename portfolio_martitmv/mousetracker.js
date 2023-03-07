@@ -36,3 +36,11 @@ const cursor = new MouseFollower({
     hideTimeout: 300,
     hideMediaTimeout: 300,
   });
+const button = document.querySelector('button');
+
+button.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});

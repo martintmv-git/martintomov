@@ -963,12 +963,21 @@ footer.footer-widgets a:hover {
 }
 /* improve this */
 .project-timeline {
-	background-color: rgba(156, 157, 157, 0);
-	border-radius: 10px;
-	width: 90%;
-	margin-left: 2%;
+    background-color: rgba(156, 157, 157, 0);
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
 }
-
+.white-text {
+	color: white;
+}  
+@media (max-width: 767px) {
+    .project-timeline {
+        width: 100%;
+        margin-left: 0;
+    }
+}
 .projectcontainer{
 	background-color: rgba(156, 157, 157, 0);
 	border-radius: 10px;

@@ -961,6 +961,14 @@ footer.footer-widgets a {
 footer.footer-widgets a:hover {
 	color: #F8F0E3;
 }
+/* improve this */
+.project-timeline {
+	background-color: rgba(156, 157, 157, 0);
+	border-radius: 10px;
+	width: 90%;
+	margin-left: 2%;
+}
+
 .projectcontainer{
 	background-color: rgba(156, 157, 157, 0);
 	border-radius: 10px;

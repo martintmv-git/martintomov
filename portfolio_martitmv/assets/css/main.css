@@ -339,6 +339,7 @@ button {
 		-ms-transform: translateY(-80%) rotate(-90deg);
 			transform: translateY(-80%) rotate(-90deg);
   }
+  /*---------------------*/
 html::-webkit-scrollbar-track{
   background: #0d0d0d;
 }
